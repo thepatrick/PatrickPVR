@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A1999A6306C44CE70040951A /* AVCVideoCapController.h in Resources */ = {isa = PBXBuildFile; fileRef = A1999A6106C44CE70040951A /* AVCVideoCapController.h */; };
+		A1999A6406C44CE70040951A /* AVCVideoCapController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1999A6206C44CE70040951A /* AVCVideoCapController.mm */; };
+		A1D567960801F79C00E3CF79 /* Framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D567950801F79C00E3CF79 /* Framework */; };
+		A1D567990801F7AC00E3CF79 /* Framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1D567950801F79C00E3CF79 /* Framework */; };
+		CD3CCEDE0F3FF70600D34DFB /* BWToolkit in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3CCEDD0F3FF70600D34DFB /* BWToolkit */; };
+		CD3CCEE10F3FF70900D34DFB /* BWToolkit in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD3CCEDD0F3FF70600D34DFB /* BWToolkit */; };
+		CD49806A0F3E30A3007ECA33 /* PVRMain.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4980690F3E30A3007ECA33 /* PVRMain.m */; };
+		CD8FEA510F41478800F60DB7 /* NSDateJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8FEA500F41478800F60DB7 /* NSDateJSON.m */; };
+		CDF239C70F3E956C009635ED /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF239C20F3E956C009635ED /* NSObject+SBJSON.m */; };
+		CDF239C80F3E956C009635ED /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF239C40F3E956C009635ED /* NSString+SBJSON.m */; };
+		CDF239C90F3E956C009635ED /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF239C60F3E956C009635ED /* SBJSON.m */; };
+		CDF49A000F3EECC20069BEFF /* PVRDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF499FF0F3EECC20069BEFF /* PVRDeviceInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1999A4506C44C820040951A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD3CCEE10F3FF70900D34DFB /* BWToolkit in CopyFiles */,
+				A1D567990801F7AC00E3CF79 /* Framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* AVCVideoCap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCVideoCap_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* PatrickPVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatrickPVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1999A6106C44CE70040951A /* AVCVideoCapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCVideoCapController.h; sourceTree = "<group>"; };
+		A1999A6206C44CE70040951A /* AVCVideoCapController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AVCVideoCapController.mm; sourceTree = "<group>"; };
+		A1D567950801F79C00E3CF79 /* Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Framework; path = ../../Framework; sourceTree = SOURCE_ROOT; };
+		CD3CCEDD0F3FF70600D34DFB /* BWToolkit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BWToolkit; path = ../../BWToolkit; sourceTree = SOURCE_ROOT; };
+		CD4980680F3E30A3007ECA33 /* PVRMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRMain.h; sourceTree = "<group>"; };
+		CD4980690F3E30A3007ECA33 /* PVRMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVRMain.m; sourceTree = "<group>"; };
+		CD8FEA4F0F41478800F60DB7 /* NSDateJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateJSON.h; sourceTree = "<group>"; };
+		CD8FEA500F41478800F60DB7 /* NSDateJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate\bJSON.m"; sourceTree = "<group>"; };
+		CDF239C00F3E956C009635ED /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		CDF239C10F3E956C009635ED /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		CDF239C20F3E956C009635ED /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		CDF239C30F3E956C009635ED /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		CDF239C40F3E956C009635ED /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		CDF239C50F3E956C009635ED /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		CDF239C60F3E956C009635ED /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		CDF499FE0F3EECC20069BEFF /* PVRDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRDeviceInfo.h; sourceTree = "<group>"; };
+		CDF499FF0F3EECC20069BEFF /* PVRDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVRDeviceInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				A1D567960801F79C00E3CF79 /* Framework in Frameworks */,
+				CD3CCEDE0F3FF70600D34DFB /* BWToolkit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CDF239BF0F3E956C009635ED /* JSON */,
+				A1999A6106C44CE70040951A /* AVCVideoCapController.h */,
+				A1999A6206C44CE70040951A /* AVCVideoCapController.mm */,
+				CD4980680F3E30A3007ECA33 /* PVRMain.h */,
+				CD4980690F3E30A3007ECA33 /* PVRMain.m */,
+				CDF499FE0F3EECC20069BEFF /* PVRDeviceInfo.h */,
+				CDF499FF0F3EECC20069BEFF /* PVRDeviceInfo.m */,
+				CD8FEA4F0F41478800F60DB7 /* NSDateJSON.h */,
+				CD8FEA500F41478800F60DB7 /* NSDateJSON.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1D567950801F79C00E3CF79 /* Framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* PatrickPVR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* PatrickPVR */ = {
+			isa = PBXGroup;
+			children = (
+				CD3CCEDD0F3FF70600D34DFB /* BWToolkit */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = PatrickPVR;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* AVCVideoCap_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDF239BF0F3E956C009635ED /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				CDF239C00F3E956C009635ED /* JSON.h */,
+				CDF239C10F3E956C009635ED /* NSObject+SBJSON.h */,
+				CDF239C20F3E956C009635ED /* NSObject+SBJSON.m */,
+				CDF239C30F3E956C009635ED /* NSString+SBJSON.h */,
+				CDF239C40F3E956C009635ED /* NSString+SBJSON.m */,
+				CDF239C50F3E956C009635ED /* SBJSON.h */,
+				CDF239C60F3E956C009635ED /* SBJSON.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* PatrickPVR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1AE741D0882E69A0079C56A /* Build configuration list for PBXNativeTarget "PatrickPVR" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				A1999A4506C44C820040951A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatrickPVR;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PatrickPVR;
+			productReference = 8D1107320486CEB800E47090 /* PatrickPVR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Patrick Quinn-Graham";
+			};
+			buildConfigurationList = A1AE74210882E69A0079C56A /* Build configuration list for PBXProject "PatrickPVR" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* PatrickPVR */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* PatrickPVR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				A1999A6306C44CE70040951A /* AVCVideoCapController.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				A1999A6406C44CE70040951A /* AVCVideoCapController.mm in Sources */,
+				CD49806A0F3E30A3007ECA33 /* PVRMain.m in Sources */,
+				CDF239C70F3E956C009635ED /* NSObject+SBJSON.m in Sources */,
+				CDF239C80F3E956C009635ED /* NSString+SBJSON.m in Sources */,
+				CDF239C90F3E956C009635ED /* SBJSON.m in Sources */,
+				CDF49A000F3EECC20069BEFF /* PVRDeviceInfo.m in Sources */,
+				CD8FEA510F41478800F60DB7 /* NSDateJSON.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1AE741E0882E69A0079C56A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					../Framework,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../dev/BWToolkit\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../BWToolkit\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AVCVideoCap_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = PatrickPVR;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		A1AE741F0882E69A0079C56A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					../Framework,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../dev/BWToolkit\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../BWToolkit\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AVCVideoCap_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = PatrickPVR;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		A1AE74200882E69A0079C56A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					../Framework,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../dev/BWToolkit\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../BWToolkit\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AVCVideoCap_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = PatrickEPG;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		A1AE74220882E69A0079C56A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Development;
+		};
+		A1AE74230882E69A0079C56A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Deployment;
+		};
+		A1AE74240882E69A0079C56A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1AE741D0882E69A0079C56A /* Build configuration list for PBXNativeTarget "PatrickPVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AE741E0882E69A0079C56A /* Development */,
+				A1AE741F0882E69A0079C56A /* Deployment */,
+				A1AE74200882E69A0079C56A /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		A1AE74210882E69A0079C56A /* Build configuration list for PBXProject "PatrickPVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1AE74220882E69A0079C56A /* Development */,
+				A1AE74230882E69A0079C56A /* Deployment */,
+				A1AE74240882E69A0079C56A /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
