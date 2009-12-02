@@ -52,7 +52,7 @@
 		A1999A6106C44CE70040951A /* AVCVideoCapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCVideoCapController.h; sourceTree = "<group>"; };
 		A1999A6206C44CE70040951A /* AVCVideoCapController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AVCVideoCapController.mm; sourceTree = "<group>"; };
 		A1D567950801F79C00E3CF79 /* Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Framework; path = ../../Framework; sourceTree = SOURCE_ROOT; };
-		CD3CCEDD0F3FF70600D34DFB /* BWToolkit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BWToolkit; path = ../../BWToolkit; sourceTree = SOURCE_ROOT; };
+		CD3CCEDD0F3FF70600D34DFB /* BWToolkit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BWToolkit; sourceTree = "<group>"; };
 		CD4980680F3E30A3007ECA33 /* PVRMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRMain.h; sourceTree = "<group>"; };
 		CD4980690F3E30A3007ECA33 /* PVRMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVRMain.m; sourceTree = "<group>"; };
 		CD8FEA4F0F41478800F60DB7 /* NSDateJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateJSON.h; sourceTree = "<group>"; };
