@@ -11,12 +11,11 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		A1999A6306C44CE70040951A /* AVCVideoCapController.h in Resources */ = {isa = PBXBuildFile; fileRef = A1999A6106C44CE70040951A /* AVCVideoCapController.h */; };
 		A1999A6406C44CE70040951A /* AVCVideoCapController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1999A6206C44CE70040951A /* AVCVideoCapController.mm */; };
-		A1D567960801F79C00E3CF79 /* Framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D567950801F79C00E3CF79 /* Framework */; };
-		A1D567990801F7AC00E3CF79 /* Framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1D567950801F79C00E3CF79 /* Framework */; };
-		CD3CCEDE0F3FF70600D34DFB /* BWToolkit in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3CCEDD0F3FF70600D34DFB /* BWToolkit */; };
-		CD3CCEE10F3FF70900D34DFB /* BWToolkit in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD3CCEDD0F3FF70600D34DFB /* BWToolkit */; };
+		CD3DA1F910C644310004AA85 /* AVCVideoServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3DA1F810C644310004AA85 /* AVCVideoServices.framework */; };
+		CD3DA1FC10C6443B0004AA85 /* AVCVideoServices.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD3DA1F810C644310004AA85 /* AVCVideoServices.framework */; };
+		CD3DA20110C644790004AA85 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3DA20010C644790004AA85 /* BWToolkitFramework.framework */; };
+		CD3DA20210C6447F0004AA85 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD3DA20010C644790004AA85 /* BWToolkitFramework.framework */; };
 		CD49806A0F3E30A3007ECA33 /* PVRMain.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4980690F3E30A3007ECA33 /* PVRMain.m */; };
 		CD8FEA510F41478800F60DB7 /* NSDateJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8FEA500F41478800F60DB7 /* NSDateJSON.m */; };
 		CDF239C70F3E956C009635ED /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF239C20F3E956C009635ED /* NSObject+SBJSON.m */; };
@@ -32,8 +31,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CD3CCEE10F3FF70900D34DFB /* BWToolkit in CopyFiles */,
-				A1D567990801F7AC00E3CF79 /* Framework in CopyFiles */,
+				CD3DA20210C6447F0004AA85 /* BWToolkitFramework.framework in CopyFiles */,
+				CD3DA1FC10C6443B0004AA85 /* AVCVideoServices.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +50,9 @@
 		8D1107320486CEB800E47090 /* PatrickPVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatrickPVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1999A6106C44CE70040951A /* AVCVideoCapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCVideoCapController.h; sourceTree = "<group>"; };
 		A1999A6206C44CE70040951A /* AVCVideoCapController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AVCVideoCapController.mm; sourceTree = "<group>"; };
-		A1D567950801F79C00E3CF79 /* Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Framework; path = ../../Framework; sourceTree = SOURCE_ROOT; };
 		CD3CCEDD0F3FF70600D34DFB /* BWToolkit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BWToolkit; sourceTree = "<group>"; };
+		CD3DA1F810C644310004AA85 /* AVCVideoServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVCVideoServices.framework; path = Frameworks/AVCVideoServices.framework; sourceTree = "<group>"; };
+		CD3DA20010C644790004AA85 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = BWToolkit/BWToolkitFramework.framework; sourceTree = "<group>"; };
 		CD4980680F3E30A3007ECA33 /* PVRMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRMain.h; sourceTree = "<group>"; };
 		CD4980690F3E30A3007ECA33 /* PVRMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVRMain.m; sourceTree = "<group>"; };
 		CD8FEA4F0F41478800F60DB7 /* NSDateJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateJSON.h; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				A1D567960801F79C00E3CF79 /* Framework in Frameworks */,
-				CD3CCEDE0F3FF70600D34DFB /* BWToolkit in Frameworks */,
+				CD3DA1F910C644310004AA85 /* AVCVideoServices.framework in Frameworks */,
+				CD3DA20110C644790004AA85 /* BWToolkitFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,8 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A1D567950801F79C00E3CF79 /* Framework */,
+				CD3DA20010C644790004AA85 /* BWToolkitFramework.framework */,
+				CD3DA1F810C644310004AA85 /* AVCVideoServices.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -228,7 +229,6 @@
 			files = (
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				A1999A6306C44CE70040951A /* AVCVideoCapController.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +280,13 @@
 					../Framework,
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../dev/BWToolkit\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../BWToolkit\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/BWToolkit\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -304,9 +308,13 @@
 					../Framework,
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../dev/BWToolkit\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../BWToolkit\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/BWToolkit\"";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -325,9 +333,13 @@
 					../Framework,
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../dev/BWToolkit\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../BWToolkit\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/BWToolkit\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AVCVideoCap_Prefix.pch;
